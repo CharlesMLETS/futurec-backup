@@ -1,0 +1,40 @@
+{
+  "fcf74e9c-2ff9-4719-824f-937b6599af3a": {
+    "requestId": "fcf74e9c-2ff9-4719-824f-937b6599af3a",
+    "deviceId": "e32877d887d2fde07673cdff7de7f8b12f2457b49ce88515346f5f72ea4f8a03",
+    "publicKey": "DtDFzhsPl5vVM8jh96ViG1yBcnUqv_UJVSZHkO-BWpI",
+    "platform": "MacIntel",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "silent": false,
+    "isRepair": false,
+    "ts": 1773966300732
+  },
+  "9a03fee8-df33-4a1d-8499-8d6b61502fdf": {
+    "requestId": "9a03fee8-df33-4a1d-8499-8d6b61502fdf",
+    "deviceId": "8a496b4dc6479ae4ac50bf56e2877055ab73fe5d0b070274f0c3da8599b16c74",
+    "publicKey": "rcTTaj7tlLkHLrBxHzbIvKx2AD9v1UrvHwkyvhBAZW0",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read"
+    ],
+    "silent": false,
+    "isRepair": false,
+    "ts": 1773966416376
+  }
+}
