@@ -1,4 +1,33 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "morning-report",
+      "name": "morning-report",
+      "description": "Daily morning task briefing from Vikunja — deadlines, high-priority, gantt tasks",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *"
+      },
+      "timezone": "America/Toronto",
+      "agent": "main",
+      "announce": true,
+      "session": "isolated",
+      "enabled": true,
+      "state": {
+        "nextRunAtMs": 1774004400000
+      },
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the morning task report script and deliver the results:\n\n1. Execute: python3 /home/openclaw/.openclaw/scripts/morning-report.py\n2. Read the output carefully.\n3. Send me the full report via Telegram, adding your personal take on what I should prioritize today.\n4. If any tasks appear in Section 4 (Repeatedly Skipped), warn me specifically about those — they have been lingering and need attention.\n5. Keep it conversational but actionable.",
+        "timeoutSeconds": 120
+      },
+      "sessionTarget": "isolated",
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram"
+      }
+    }
+  ]
 }

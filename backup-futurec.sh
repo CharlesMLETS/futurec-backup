@@ -75,9 +75,8 @@ sudo test -f "$OPENCLAW_DIR/identity/device.json" && sudo cp "$OPENCLAW_DIR/iden
 mkdir -p "$REPO_DIR/cron"
 sudo test -f "$OPENCLAW_DIR/cron/jobs.json" && sudo cp "$OPENCLAW_DIR/cron/jobs.json" "$REPO_DIR/cron/"
 
-# scripts/
-mkdir -p "$REPO_DIR/scripts"
-sudo test -f "$OPENCLAW_DIR/scripts/transcribe.py" && sudo cp "$OPENCLAW_DIR/scripts/transcribe.py" "$REPO_DIR/scripts/"
+# scripts/ (all)
+sudo rsync -a --delete "$OPENCLAW_DIR/scripts/" "$REPO_DIR/scripts/"
 
 # devices/
 sudo test -d "$OPENCLAW_DIR/devices" && sudo rsync -a --delete "$OPENCLAW_DIR/devices/" "$REPO_DIR/devices/"
