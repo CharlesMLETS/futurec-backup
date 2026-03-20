@@ -1,0 +1,22 @@
+# Secrets
+openclaw.json
+openclaw.json.bak*
+credentials/
+exec-approvals.json
+.backup.env
+
+# Large / regenerable
+whisper-env/
+telegram/
+delivery-queue/
+update-check.json
+agents/main/agent/models.json
+media/
+
+# SQLite temp
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# OS
+.DS_Store
