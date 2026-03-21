@@ -13,9 +13,16 @@
       "agent": "main",
       "announce": true,
       "session": "isolated",
-      "enabled": true,
+      "enabled": false,
       "state": {
-        "nextRunAtMs": 1774004400000
+        "lastRunAtMs": 1774004400008,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 28397,
+        "lastError": "⚠️ ✉️ Message failed",
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 1
       },
       "wakeMode": "now",
       "payload": {
@@ -27,7 +34,8 @@
       "delivery": {
         "mode": "announce",
         "channel": "telegram"
-      }
+      },
+      "updatedAtMs": 1774061447875
     }
   ]
 }

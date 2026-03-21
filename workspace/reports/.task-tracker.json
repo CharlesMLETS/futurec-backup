@@ -1,137 +1,116 @@
 {
-  "last_updated": "2026-03-19T23:01:42",
+  "last_updated": "2026-03-20T10:19:58",
   "tasks": {
     "109": {
       "title": "Mix stay",
       "project": "Music - Creative",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "96": {
       "title": "Suivi formation 3D CVM",
       "project": "Work",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "37": {
       "title": "Build website by",
       "project": "Professional - Website",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 4
     },
     "108": {
       "title": "Mix She said",
       "project": "Music - Creative",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 2
     },
     "261": {
       "title": "Organize vinkunja better",
       "project": "Inbox / GENERAL",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 3
-    },
-    "52": {
-      "title": "Save Node 2",
-      "project": "HOMELAB",
-      "count": 4,
-      "first_seen": "2026-03-19",
-      "priority": 0
     },
     "240": {
       "title": "Recherche international avant 1 mai",
       "project": "Inbox / GENERAL",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 3
     },
     "111": {
       "title": "Setup actual budget",
       "project": "Inbox / GENERAL",
-      "count": 4,
-      "first_seen": "2026-03-19",
-      "priority": 0
-    },
-    "40": {
-      "title": "Finalize price chart",
-      "project": "Professional - Branding",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "249": {
       "title": "Authenticator backup research",
       "project": "Inbox / GENERAL",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 3
-    },
-    "113": {
-      "title": "Setup website claude code",
-      "project": "Professional - Website",
-      "count": 4,
-      "first_seen": "2026-03-19",
-      "priority": 0
     },
     "177": {
       "title": "Keep track of credits and splits",
       "project": "Music - Creative",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "88": {
       "title": "Imprimmer manette holder pour sofa",
       "project": "Inbox / GENERAL",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "257": {
       "title": "Devoir ELE355",
       "project": "Inbox / GENERAL",
-      "count": 4,
-      "first_seen": "2026-03-19",
-      "priority": 3
-    },
-    "263": {
-      "title": "Automated vinkunja daily report",
-      "project": "Inbox / GENERAL",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 3
     },
     "112": {
       "title": "FInish website content",
       "project": "Professional - Website",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "150": {
       "title": "Checking hard-drive status and plan",
       "project": "HOMELAB",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "256": {
       "title": "Ethernet jacks",
       "project": "Inbox / GENERAL",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
       "priority": 0
     },
     "131": {
       "title": "Formation 3D CEGEP VIEUX ?",
       "project": "Work",
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-03-19",
+      "priority": 0
+    },
+    "250": {
+      "title": "Passeport canadien !",
+      "project": "Inbox / GENERAL",
+      "count": 1,
+      "first_seen": "2026-03-20",
       "priority": 0
     }
   }
